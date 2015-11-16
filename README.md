@@ -1,0 +1,7 @@
+PyIgnition (https://www.github.com/animatinator/pyignition) makes creating particle effects for Pygame simple, but having to implement effects in code makes testing them difficult, especially if they are only triggered at certain points in your program. This also means that creating particle effects has to be left to programmers as there is no easy way for artists unfamiliar with Python syntax to design PyIgnition effects. Obsidian resolves these problems by providing a slick GUI-based tool for generating PyIgnition particle effects and previewing them in real-time. You can then export these effects to PyIgnition's XML-based file format, which can be smoothly imported into any PyIgnition program with just one line of code. This also allows you to keep particle effects separate from the rest of your code, as they can be stored in their own separate files instead of cluttering up your main source files.
+
+Obsidian is currently in the *very* early alpha stages and so only parts of the application have been written (and they're still a bit iffy). However, you can nonetheless download what has been done so far from the 'Code' tab at the top of the page. PyIgnition is included in the branched code, so there are quite a few files - the one to run at the moment is 'particleeditor.py', which demonstrates the particle keyframe editor window.
+
+Screenshots: https://picasaweb.google.com/102839033876058941726/ObsidianScreenshots
+
+Original repository: https://launchpad.net/obsidian
